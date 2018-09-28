@@ -94,7 +94,7 @@ extension PTTableViewController {
         if #available(iOS 11.0, *) {
             tableView.contentInsetAdjustmentBehavior = .never
         } else {
-            tableView.contentInset = UIEdgeInsets.init(top: -64, left: 0, bottom: 0, right: 0)
+            tableView.contentInset = UIEdgeInsets(top: -64, left: 0, bottom: 0, right: 0)
         }
     }
 
